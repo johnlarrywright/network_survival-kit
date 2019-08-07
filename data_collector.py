@@ -6,6 +6,9 @@ import port
 import client_browser
 import mac_lookup
 
+project = open('network-survival.txt', 'w')
+project.write(system_tool.system())
+
 if __name__ == "__main__":
     system_tool.system()
     network.network()
